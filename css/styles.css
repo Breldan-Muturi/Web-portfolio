@@ -1,3 +1,6 @@
+body{
+    background-color: blanchedalmond;
+}
 h1{
     color: burlywood;
     text-align: center;
@@ -19,4 +22,8 @@ li{
 .intro{
     color: #2BB347;
     font-family: sans-serif;
+}
+.mine{
+    color: #646AC8;
+    font-family: Georgia;
 }
