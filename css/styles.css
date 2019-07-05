@@ -7,3 +7,9 @@ h2{
     font-family: 'Times New Roman';
     text-align: left; 
 }
+p{
+    font-family: sans-serif;
+}
+ul{
+    line-height: 40px;
+}
