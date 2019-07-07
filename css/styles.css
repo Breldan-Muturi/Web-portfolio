@@ -64,4 +64,25 @@ a{
     color: rgb(101, 156, 152);
     font-weight: 800;
 }
-  
+a button{
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 50px;
+        background-color: aqua;
+}
+a button:hover {
+        background-color: #4CAF50; /* Green */
+        color: white;
+        padding: 8px 21.6px;
+}
+li a button{
+    display: block;
+    background-color: goldenrod;
+    -webkit-transition-duration: 800ms;
+    transition-duration: 800ms;
+}
+li a button:hover{
+    background-color: rgb(35, 57, 177);
+    color: white;
+    width: 250px;
+}
