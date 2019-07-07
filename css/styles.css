@@ -1,6 +1,6 @@
 .Home{
     background-image: url(../turi2.jpg);
-    object-fit: cover;
+    background-size: cover;
 }
 body{
     background-color: brown;
