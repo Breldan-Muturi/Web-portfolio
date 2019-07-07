@@ -1,5 +1,9 @@
+.Home{
+    background-image: url(../turi2.jpg);
+    object-fit: cover;
+}
 body{
-    background-color: blanchedalmond;
+    background-color: brown;
 }
 h1{
     color: burlywood;
@@ -26,4 +30,10 @@ li{
 .mine{
     color: #646AC8;
     font-family: Georgia;
+}
+img{
+    float: left;
+    height: 600px;
+    width: 400px;
+    object-fit: cover;
 }
