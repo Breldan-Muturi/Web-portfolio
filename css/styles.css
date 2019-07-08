@@ -40,25 +40,7 @@ img{
     width: 350px;
     object-fit: cover;
     border-radius: 40px;
-}
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    body {
-        background-color: brown;
-        color: white;
-    }
-}
-@media screen and (min-width: 768px) {
-  body {
-    background-color: purple;
-  }
-}
-@media screen and (max-width: 768px) {
-  .column {
-    color: purple;
-    width: 220px;
-    float: left;
-    padding: 15px;
-  }
+    margin-right: 20px;
 }
 a{
     color: rgb(101, 156, 152);
@@ -83,6 +65,7 @@ li a button{
     transition-duration: 800ms;
     text-decoration: none;
     text-transform: capitalize;
+    margin-bottom: 30px;
 }
 li a button:hover{
     background-color: rgb(35, 57, 177);
@@ -91,4 +74,23 @@ li a button:hover{
 }
 .interests{
     list-style: none;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: brown;
+        color: white;
+    }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: purple;
+  }
+}
+@media screen and (max-width: 768px) {
+  .column {
+    color: purple;
+    width: 220px;
+    float: left;
+    padding: 15px;
+  }
 }
