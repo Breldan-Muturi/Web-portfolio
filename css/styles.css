@@ -36,8 +36,8 @@ li{
 }
 img{
     float: left;
-    height: 600px;
-    width: 400px;
+    height: 525px;
+    width: 350px;
     object-fit: cover;
     border-radius: 40px;
 }
@@ -69,6 +69,7 @@ a button{
         transition-duration: 0.4s;
         border-radius: 50px;
         background-color: aqua;
+        text-transform: uppercase;
 }
 a button:hover {
         background-color: #4CAF50; /* Green */
@@ -80,9 +81,14 @@ li a button{
     background-color: goldenrod;
     -webkit-transition-duration: 800ms;
     transition-duration: 800ms;
+    text-decoration: none;
+    text-transform: capitalize;
 }
 li a button:hover{
     background-color: rgb(35, 57, 177);
     color: white;
     width: 250px;
+}
+.interests{
+    list-style: none;
 }
